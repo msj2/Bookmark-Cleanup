@@ -16,7 +16,7 @@ image = lxml.html.parse(full_url)
 url_list = image.xpath("//a/@href")	
 
 url_list.sort()
-print "*********** All URL's before Duplicate & Sort *********** "
+#print "*********** All URL's before Duplicate & Sort *********** "
 #for each in url_list:
 	#print each
 print "Total no. of URL = ", len(url_list)
@@ -25,8 +25,7 @@ url_list = list(set(url_list))
 
 
 print "*********** All URL's after Duplicate & Sort *********** "
-for each in url_list:
-	print each
+#for each in url_list:	print each
 print "Total no. of URL after dup remove= ", len(url_list)
 
 end=datetime.now()
