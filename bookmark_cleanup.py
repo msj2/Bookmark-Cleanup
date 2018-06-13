@@ -1,6 +1,9 @@
+'''
 #	Take FF or Chrome Bookmark htm, remove duplicates, group them....
 # any other cleanup
 #	Tue Jul 19 10:55:32 IST 2016
+	June 13, 2018: Gotta make this take bookmarks on keep & delicious
+'''
 
 import lxml.html
 import string
